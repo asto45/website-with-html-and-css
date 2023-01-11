@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.7),rgba(10, 10, 10, 0.7)),url(1A4BD36A-6484-4C05-AD19-9AC988F92BBCL0001.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 80px;
+}
+p{
+    color: #fff;
+    font-size: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size:12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 12px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(4DDFC07D-B1F7-470F-9D31-CFC27ABFE71DL0001~2.jpeg);
+}
+.card2{
+    background-image: url(3FDE1281-E65E-4161-8AA4-30558B700C32L0001.jpeg);
+}
+.card3{
+    background-image: url(02ACF22F-0A48-4B10-A222-A3F2390B36BCL0001.jpeg);
+}
+.card4{
+    background-image: url(5D98F674-A4B9-416E-8677-019D2C969BFCL0001.jpeg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: rgb(179, 252, 8);
+    text-shadow: 0 0 5px rgb(8, 8, 8);
+}
+.card p{
+    color:rgb(210, 245, 10);
+    text-shadow: 0 0 15px rgb(179, 243, 4);
+    font-size: 8px;
+}
